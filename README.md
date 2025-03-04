@@ -22,12 +22,15 @@ LibreSplit.
     repository. If your autosplitter contains any unconventional code, please
     mention it in your PR description.
 
-**2. No Blatant Obfuscation**
+**2. No self-hosted file hosting**
+- As we can't verify the security of self-hosted solutions, any PRs that link to them will be rejected. Your file should be hosted on a reputable file hosting service like GitHub, GitLab or Dropbox.
+
+**3. No Blatant Obfuscation**
 
 -   Autosplitter code should not be intentionally obfuscated. Refusal to
     unobfuscate your code will result in your PR being rejected.
 
-**3. No Submitting Autosplitters for Multiplayer Games (with Exceptions)**
+**4. No Submitting Autosplitters for Multiplayer Games (with Exceptions)**
 
 -   Multiplayer games typically have anti-cheat systems that will detect
     LibreSplit as a threat and will either block its functionality or punish
